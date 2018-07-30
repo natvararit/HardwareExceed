@@ -207,7 +207,7 @@ void light_intense() {
   if (server_data.QR_check == 9) { //car parked ,QR pass,security on
     Serial.println("Security Activated");
     delay(1000);
-    if (digitalRead(SW) == 1) { //รถออก, ส่งเตือนdashborad ,alarmดัง
+    if (digitalRead(SW) == 1) { //รถออก, ส่งเตือน ,alarmดัง
       project_data.button_stat = 1;
       //Serial.println(digitalRead(SW));
       //Serial.println(project_data.alarm_dashboard);
